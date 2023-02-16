@@ -502,6 +502,7 @@ border-bottom: 1px solid var(--border-color);
         letter-spacing: 0.02em;
         padding-top: 24px;
         padding-bottom: 24px;
+        display: block;
 }
 .social-link .social-links{
     color: var(--brand-color);
