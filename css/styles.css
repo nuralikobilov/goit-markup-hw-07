@@ -15,6 +15,7 @@
     --basic-color:#434455;
     --gen-color:#FFFFFF;
     --border-color:#E7E9FC;
+    --footer-hover-color:#31D0AA;
 }
 body{
     font-family: Roboto, sans-serif;
@@ -161,10 +162,13 @@ margin: auto;
 }
          
 .section-baner{
-    background-color: var(--dark-color);
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    background-image: url(../images/hero_section_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1440px 600px;
     
 }
 .name{
@@ -528,8 +532,8 @@ border-bottom: 1px solid var(--border-color);
     height: 16px;
     fill: var(--light-color);
 }
-.social-link-item:hover .social-icon{
-    fill: var(--back-color);
+.social-link-item:hover {
+    background: var(--back-color);
 }
 .social-item{
 width: 40px;
@@ -580,7 +584,9 @@ height: 64px;
     font-size: 36px;
     line-height: 1.111;
     text-align: center;
+    margi
 }
+
 .icon-customers{
     width: 104px;
     height: 56px;
@@ -590,6 +596,7 @@ height: 64px;
 .list-customers{
     list-style-type: none;
     display: flex;
+    
     gap: 24px;
     margin-top: 72px;
     
@@ -617,6 +624,15 @@ height: 64px;
 .our-customers{
     border-radius: 4px;
 }
+
+.footer-list{
+    display: flex;
+    justify-content: flex-start;
+}
+.li-number-two{
+    width: 208px;
+    margin-left: 120px;
+}
 .media-title{
     color: #FFFFFF;
     font-family: 'Roboto';
@@ -624,19 +640,23 @@ height: 64px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 16px;
 }
 .media-list{
     display: flex;
     gap: 16px;
     list-style-type: none;
+    justify-content: space-between;
 }
 .media-icon{
     width: 24px;
     height: 24px;
+    fill: var(--light-color);
 }
 .media-item{
 width: 40px;
 height: 40px;
+list-style: none;
 }
 .media-link{
     display: flex;
@@ -647,4 +667,7 @@ height: 40px;
     fill: #F4F4FD;
     background-color: rgba(255, 255, 255, 0.1) ;
     border-radius: 50%;
+}
+.media-link:hover{
+ background: var(--footer-hover-color);
 }
