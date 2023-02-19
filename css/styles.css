@@ -165,10 +165,12 @@ margin: auto;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    background-image: url(../images/hero_section_image.jpg);
+    background-image: linear-gradient(to right,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/hero_section_image.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1440px 600px;
+    background-size: cover;
     
 }
 .name{
