@@ -536,7 +536,7 @@ border-bottom: 1px solid var(--border-color);
     fill: var(--light-color);
 }
 .social-link-item:hover {
-    background: var(--back-color);
+    background-color: var(--back-color);
 }
 .social-item{
 width: 40px;
@@ -587,7 +587,7 @@ height: 64px;
     font-size: 36px;
     line-height: 1.111;
     text-align: center;
-    margi
+    
 }
 
 .icon-customers{
@@ -599,7 +599,6 @@ height: 64px;
 .list-customers{
     list-style-type: none;
     display: flex;
-    
     gap: 24px;
     margin-top: 72px;
     
@@ -608,11 +607,10 @@ height: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 168px;
     height: 88px;
-    background-color:fill #E5E5E5;
     border-radius: 4px;
     color: #8E8F99;
+    border: 1px solid #8E8F99
     
 }
 .link-customers:hover{
@@ -621,7 +619,7 @@ height: 64px;
 
 .our-customers{
     flex-basis: calc((100% - 5 * 24px) / 6);
-    border: 1px solid #8E8F99
+    
 }
 
 .our-customers{
@@ -631,6 +629,7 @@ height: 64px;
 .footer-list{
     display: flex;
     justify-content: flex-start;
+    list-style: none;
 }
 .li-number-two{
     width: 208px;
