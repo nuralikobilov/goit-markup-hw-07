@@ -22,8 +22,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: var(--basic-color);
-    line-height: 0;
-    
+    line-height: 0; 
 }
 p,
 h1,
