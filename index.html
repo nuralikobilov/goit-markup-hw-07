@@ -62,7 +62,9 @@
       <section class="section-baner">
         <div class="container">
           <h1 class="name">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button data-modal-open class="button" type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <!--advantages-->
@@ -437,5 +439,15 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close type="button" class="modal-close-btn">
+          <svg class="modal-close-icon">
+            <use href="./images/icons.svg#icon-close_black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
