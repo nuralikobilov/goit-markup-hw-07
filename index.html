@@ -441,11 +441,65 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <h2 class="modal-title">
+          Leave your contacts and we will call you back
+        </h2>
         <button data-modal-close type="button" class="modal-close-btn">
           <svg class="modal-close-icon">
             <use href="./images/icons.svg#icon-close_black"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <label class="modal-label">
+            <p class="user-name form-text">Name</p>
+            <div class="position-icon">
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+              <input
+                class="modal-input"
+                type="text"
+                name="user-name"
+                required
+              />
+            </div>
+          </label>
+          <label class="modal-label">
+            <p class="user-phone form-text">Phone</p>
+            <div class="position-icon">
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+              <input type="tel" name="user-phone" required />
+            </div>
+          </label>
+          <label class="modal-label">
+            <p class="user-email form-text">Email</p>
+            <div class="position-icon">
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+              <input type="email" name="user-email" required />
+            </div>
+          </label>
+          <label class="modal-label label-comment">
+            <p class="user-comment form-text">Comment</p>
+            <textarea
+              class="text-comment"
+              name="user_comment"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label class="checkbox-block">
+            <span class="checkbox-icon"></span>
+            <input type="checkbox" class="checkbox" required />
+            <p class="checkbox-text form-text">
+              I accept the terms and conditions of the
+              <a href="#" class="privacy-policy">Privacy Policy</a>
+            </p>
+          </label>
+          <button type="submit" class="form-button">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
