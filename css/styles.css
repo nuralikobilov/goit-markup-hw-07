@@ -809,7 +809,7 @@ list-style: none;
     padding-left: 38px;
 }
 
-.form-text {
+.form-p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -820,7 +820,7 @@ list-style: none;
     margin-bottom: 4px;
 }
 
-.position-icon {
+.icon-div {
     position: relative;
 }
 
@@ -843,7 +843,7 @@ list-style: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.position-icon:focus-within {
+.icon-div:focus-within {
     fill: var(--brand-color);
 }
 
@@ -852,7 +852,7 @@ list-style: none;
     outline: 0;
 }
 
-.form-icon {
+.svg-icon {
     display: block;
     position: absolute;
     top: 50%;
@@ -894,14 +894,14 @@ border-color: var(--brand-color);
     color: rgba(117, 117, 117, 0.5);
 }
 
-.checkbox-block {
+.label-checkbox {
     display: flex;
     align-items: center;
     margin: 16px 0 24px 0;
     cursor: pointer;
 }
 
-.checkbox-text {
+.checkbox-paragraph {
     line-height: 1.33;
     letter-spacing: 0.04em;
     margin: 0 0 0 8px;
@@ -929,17 +929,17 @@ border-color: var(--brand-color);
     height: 16px;
 }
 
-.privacy-policy {
+.privacy-link {
     color: var(--brand-color);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.privacy-policy:focus {
+.privacy-link:focus {
     outline: 0;
     border: 1px solid var(--brand-color);
     border-radius: 2px;
 }
-.form-button {
+.button-send {
     color: var(--gen-color);
     cursor: pointer;
     width: 169px;
@@ -956,7 +956,7 @@ border-color: var(--brand-color);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-button:hover {
+.button-send:hover {
     background-color: var(--back-color);
 }
 
