@@ -557,6 +557,9 @@ button-web:focus{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.label-sub input:focus {
+    border-color: #FFFFFF;
+}
 .form-footer::placeholder {
     font-family: "Roboto";
     font-style: normal;
