@@ -16,6 +16,9 @@
     --gen-color:#FFFFFF;
     --border-color:#E7E9FC;
     --footer-hover-color:#31D0AA;
+    --middle-color:#FCFCFC;
+    --middle-white-color:#E7E9FC;
+    --grey-color:#8E8F99;
     --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 body{
@@ -558,7 +561,7 @@ button-web:focus{
 }
 
 .label-sub input:focus {
-    border-color: #FFFFFF;
+    border-color: var(--gen-color);
 }
 .form-footer::placeholder {
     font-family: "Roboto";
@@ -734,8 +737,8 @@ height: 64px;
     justify-content: center;
     height: 88px;
     border-radius: 4px;
-    color: #8E8F99;
-    border: 1px solid #8E8F99;
+    color: var(--grey-color);
+    border: 1px solid var(--grey-color);
     transition-property: color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -763,7 +766,7 @@ height: 64px;
     margin-left: 120px;
 }
 .media-title{
-    color: #FFFFFF;
+    color: var(--gen-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -795,7 +798,7 @@ list-style: none;
     align-items: center;
     width: 100%;
     height: 100%;
-    fill: #F4F4FD;
+    fill:var(--light-color);
     background-color: rgba(255, 255, 255, 0.1) ;
     border-radius: 50%;
     transition-property: background-color;
@@ -829,13 +832,13 @@ list-style: none;
     transform: translate(-50%, -50%);
     width:408px ;
     height:576px ;
-    background-color: #FCFCFC;
+    background-color:var(--middle-color);
     padding: 72px 24px 24px 24px;
 }
 .modal-close-icon{
     width: 8px;
     height: 8px;
-    background: #E7E9FC;
+    background: var(--middle-white-color);
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -851,7 +854,7 @@ list-style: none;
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background: #E7E9FC;
+    background:var(--middle-white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
@@ -910,6 +913,7 @@ list-style: none;
     line-height: 1.33;
     letter-spacing: 0.04em;
 }
+
 
 .modal-label input {
     font-family: 'Roboto';
