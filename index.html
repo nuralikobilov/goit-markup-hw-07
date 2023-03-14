@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <!--head-->
@@ -30,6 +31,21 @@
             <a class="logo" href="./index.html"
               ><span class="web">Web</span><span class="studio">Studio</span></a
             >
+
+            <button
+              type="button"
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg class="mobile-icon" aria-label="mobile menu switcher">
+                <use
+                  href="./images/icons.svg#icon-burger"
+                  class="icon-menu"
+                ></use>
+              </svg>
+            </button>
+
             <ul class="social-links">
               <li>
                 <a class="social-link current" href="./index.html">Studio</a>
@@ -528,6 +544,70 @@
         </form>
       </div>
     </div>
+    <!-- mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="mobile-icon-close">
+          <use href="./images/icons.svg#icon-close_black"></use>
+        </svg>
+      </button>
+      <div class="mobile-nav">
+        <ul class="mobile-menu list">
+          <li class="social-link">
+            <a href="./index.html" class="link">Studio</a>
+          </li>
+          <li class="social-link">
+            <a href="./portfolio.html" class="link">Portfolio</a>
+          </li>
+          <li class="social-link"><a href="" class="link">Contacts</a></li>
+        </ul>
+        <div class="mobile-menu-contacts">
+          <ul class="mobile-auth-nav list">
+            <li class="phone">
+              <a href="tel:+110001111111" class="mobile-tel"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mail">
+              <a href="mailto:info@devstudio.com" class="mobile-mail"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="social-list mobile-menu-icons">
+            <li class="social-item">
+              <a href="" class="social-link-item">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link-item">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link-item">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link-item">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       defer
