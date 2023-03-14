@@ -21,6 +21,9 @@
     --grey-color:#8E8F99;
     --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+html {
+    box-sizing: border-box;
+}
 body{
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -31,19 +34,27 @@ body{
 p,
 h1,
 h2,
-h3 {
-    margin-top: 0;
-    margin-bottom: 0;
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
 }
-.container-p{
-max-width: 1158px;
-margin: auto;
-}
-.container{
+
+
+.container {
     max-width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
+
+
+.section {
+    padding-bottom: 77px;
+    padding-top: 77px;
+}
+
+
 .section{
     padding-top: 120px;
     padding-bottom: 120PX;
