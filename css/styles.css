@@ -64,7 +64,8 @@ margin: auto;
 }
 @media screen and (min-width: 428px) {
     .container {
-        width: 396px;
+        /* width: 396px; */
+        width: 428px;
     }  
 }
 @media screen and (min-width: 768px) {
