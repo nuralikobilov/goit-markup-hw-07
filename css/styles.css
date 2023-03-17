@@ -2143,3 +2143,20 @@ overflow: hidden;
             margin-bottom: 12px;
         }
 }
+@media  screen and (max-width: 1199px) {
+    .section-paragraph {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    }
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
