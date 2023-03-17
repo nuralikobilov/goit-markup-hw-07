@@ -2103,12 +2103,12 @@ overflow: hidden;
 }
 
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .name {
         width: calc(100% - 112px);
         max-width: 318px;
     }
-}
+} */
 
 @media screen and (min-width: 768px) {
     .name{
